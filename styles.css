@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Corben:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FDE74C;
+}
+
+h1{
+    font-family: 'Corben', cursive;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.navigation{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+    background-color: #24252A;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav a{
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    font-weight: 500;
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 0px 20px;
+    transition: all 0.55s ease;
+}
+.nav a:hover{
+    color: #F4845F;
+}
+
+.logo{
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo > img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.logo > p{
+    padding-left: 10px;
+    font-family: 'Corben', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    color: #f0f0f0;
+}
+
+#menu-opt{
+    color: #f0f0f0;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+}
+
+header{
+    position: absolute;
+    top: 100px;
+    display: flex;
+    width: 100%;
+}
+
+.header{
+    align-self: center;
+    flex: 1;
+    margin-left: 100px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.header-logo{
+    flex: 1;
+}
+
+.header-logo > img{
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+}
+
+
